@@ -15,7 +15,7 @@ type ResultRow struct {
 const N = 7
 const K = 4
 const InformationVector = 7       // 0111b
-const CodedInformationVector = 22 // 0111.110 b
+const CodedInformationVector = 58 // 0111.010 b
 const GenPolynomial = 11          // 1011b
 
 var Result = make([]ResultRow, N+1)
